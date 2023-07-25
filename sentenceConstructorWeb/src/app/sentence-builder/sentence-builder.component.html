@@ -1,0 +1,19 @@
+<div class="content">
+  <ng-container *ngIf="isLoading$ | async">
+    <mat-spinner></mat-spinner>
+  </ng-container>
+
+  <ng-container *ngIf="!(isLoading$ | async)">
+    <mat-form-field *ngFor="let data of wordDataNew">
+      <mat-label>{{ data.name }}</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let word of data.value" value="{{ word }}">{{
+          word
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button (click)="buildSentence()" mat-button>Generate Sentence</button>
+    <pre>{{ generatedSentence }}</pre>
+  </ng-container>
+  <pre>{{ data | json }}</pre>
+</div>

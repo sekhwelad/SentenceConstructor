@@ -1,0 +1,7 @@
+.content {
+  padding: 10px;
+
+  :host ::ng-deep mat-form-field {
+    margin-right: 5px;
+  }
+}
