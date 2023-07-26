@@ -22,6 +22,12 @@
     </div>
     <div class="action">
       <button
+        style="
+          background-color: #fdda25;
+          border-radius: 10px;
+          width: 100px;
+          font-weight: 500;
+        "
         [disabled]="!(selectedWords.length > 0)"
         (click)="submitSentence()"
         mat-raised-button
