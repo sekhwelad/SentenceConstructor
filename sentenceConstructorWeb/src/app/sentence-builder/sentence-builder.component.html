@@ -2,18 +2,32 @@
   <ng-container *ngIf="isLoading$ | async">
     <mat-spinner></mat-spinner>
   </ng-container>
-
   <ng-container *ngIf="!(isLoading$ | async)">
     <mat-form-field *ngFor="let data of wordDataNew">
       <mat-label>{{ data.name }}</mat-label>
-      <mat-select>
-        <mat-option *ngFor="let word of data.value" value="{{ word }}">{{
-          word
+      <mat-select (selectionChange)="selectedValue($event)">
+        <mat-option *ngFor="let word of data.value" value="{{ word.name }}">{{
+          word.name
         }}</mat-option>
       </mat-select>
     </mat-form-field>
-    <button (click)="buildSentence()" mat-button>Generate Sentence</button>
-    <pre>{{ generatedSentence }}</pre>
+    <div class="preview">
+      <span>Preview : {{ generatedSentence }}</span>
+    </div>
+
+    <div class="listing">
+      <mat-list *ngFor="let sentence of savedSentences" role="list">
+        <mat-list-item>{{ sentence.expression }}</mat-list-item>
+      </mat-list>
+    </div>
+    <div class="action">
+      <button
+        [disabled]="!(selectedWords.length > 0)"
+        (click)="submitSentence()"
+        mat-raised-button
+      >
+        Submit
+      </button>
+    </div>
   </ng-container>
-  <pre>{{ data | json }}</pre>
 </div>

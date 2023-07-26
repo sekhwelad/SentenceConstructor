@@ -12,6 +12,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { SentenceBuilderService } from './services/sentence-builder.service';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [AppComponent, SentenceBuilderComponent],
@@ -25,6 +26,7 @@ import { SentenceBuilderService } from './services/sentence-builder.service';
     MatSelectModule,
     MatButtonModule,
     HttpClientModule,
+    MatListModule,
   ],
   providers: [SentenceBuilderService],
   bootstrap: [AppComponent],

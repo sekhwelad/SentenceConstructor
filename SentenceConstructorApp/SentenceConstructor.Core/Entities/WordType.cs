@@ -8,6 +8,6 @@ namespace SentenceConstructor.Core.Entities
 {
     public class WordType : BaseEntity
     {
-        public int Type { get; set; }
+        public string Type { get; set; }
     }
 }

@@ -1,0 +1,178 @@
+[
+	{
+		"Name": "aboard",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "about",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "above",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "across",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "after",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "against",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "along",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "amid",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "among",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "anti",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "around",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "as",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "at",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "before",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "behind",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "below",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "beneath",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "beside",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "besides",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "between",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "beyond",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "but",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "by",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "concerning",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "considering",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "despite",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "during",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "except",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "for",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "from",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "in",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "inside",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "into",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "like",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "minus",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "near",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "of",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "on",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "off",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "onto",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "over",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "regarding",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "since",
+		"WordTypeId": 7
+	},
+	{
+		"Name": "until",
+		"WordTypeId": 7
+	}
+]

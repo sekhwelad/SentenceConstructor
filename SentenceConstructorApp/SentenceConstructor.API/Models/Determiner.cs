@@ -1,6 +1,6 @@
 ﻿namespace SentenceConstructor.API.Models
 {
-    public class Determiner
+    public class Determiner : BaseWordTypeModel
     {
     }
 }

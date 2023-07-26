@@ -1,0 +1,202 @@
+[
+	{
+		"Name": "area",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "book",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "business",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "case",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "child",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "company",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "country",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "day",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "eye",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "fact",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "family",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "government",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "group",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "hand",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "home",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "job",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "life",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "lot",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "man",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "money",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "month",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "mother",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "Mr",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "night",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "number",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "part",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "people",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "place",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "point",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "problem",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "program",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "question",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "right",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "room",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "school",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "state",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "story",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "student",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "study",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "system",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "thing",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "time",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "water",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "way",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "week",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "woman",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "word",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "work",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "world",
+		"WordTypeId": 6
+	},
+	{
+		"Name": "year",
+		"WordTypeId": 6
+	}
+]

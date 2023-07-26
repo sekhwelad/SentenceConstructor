@@ -1,0 +1,186 @@
+[
+	{
+		"Name": "I",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "you",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "he",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "she",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "it",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "we",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "you",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "they",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "me",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "you",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "him",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "her",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "it",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "us",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "you",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "them",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "mine",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "yours",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "his",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "hers",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "its",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "ours",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "yours",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "theirs",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "this",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "these",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "that",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "those",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "who",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "whom",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "which",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "what",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "who",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "like",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "that",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "which",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "whoever",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "whichever",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "whomever",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "myself",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "yourself",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "himself",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "herself",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "ourselves",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "yourselves",
+		"WordTypeId": 8
+	},
+	{
+		"Name": "themselves",
+		"WordTypeId": 8
+	}
+]

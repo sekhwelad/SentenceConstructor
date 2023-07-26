@@ -1,6 +1,6 @@
 ﻿namespace SentenceConstructor.API.Models
 {
-    public class Pronoun
+    public class Pronoun : BaseWordTypeModel
     {
     }
 }

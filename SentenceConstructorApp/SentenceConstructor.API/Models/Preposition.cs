@@ -1,6 +1,6 @@
 ﻿namespace SentenceConstructor.API.Models
 {
-    public class Preposition
-    {
+    public class Preposition : BaseWordTypeModel
+    {   
     }
 }

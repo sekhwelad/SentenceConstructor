@@ -4,6 +4,21 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { BehaviorSubject, takeUntil } from 'rxjs';
 import { SentenceBuilderService } from '../services/sentence-builder.service';
 
+interface IWordValue {
+  name: string;
+  id: number;
+}
+
+export interface IData {
+  name: string;
+  value: IWordValue[];
+}
+
+export interface ISentence {
+  expression: string;
+  id?: number;
+}
+
 @Component({
   selector: 'app-sentence-builder',
   templateUrl: './sentence-builder.component.html',
@@ -13,7 +28,8 @@ export class SentenceBuilderComponent implements OnInit, OnDestroy {
   private isLoadingSubject = new BehaviorSubject(false);
   isLoading$ = this.isLoadingSubject.asObservable();
 
-  data: any[] = [];
+  selectedWords: string[] = [];
+  savedSentences: ISentence[] = [];
 
   constructor(
     private readonly sentenceBuilderService: SentenceBuilderService
@@ -21,64 +37,42 @@ export class SentenceBuilderComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.isLoadingSubject.next(true);
-    this.sentenceBuilderService.getAll().subscribe((data) => {
-      this.data = data;
+    this.sentenceBuilderService.getAllWords().subscribe((data) => {
+      this.wordDataNew = Object.keys(data).map((x: any) => {
+        return { name: x, value: data[x] };
+      });
+      this.isLoadingSubject.next(false);
+    });
+
+    this.sentenceBuilderService.getAllSentences().subscribe((data) => {
+      this.savedSentences = data;
       this.isLoadingSubject.next(false);
     });
   }
 
-  wordDataNew: any[] = [
-    {
-      name: 'nouns',
-      value: ['cat', 'dog', 'house', 'car'],
-    },
-    {
-      name: 'verbs',
-      value: ['runs', 'jumps', 'eats', 'sleeps'],
-    },
-    {
-      name: 'adjectives',
-      value: ['big', 'small', 'happy', 'sad'],
-    },
-    {
-      name: 'adverbs',
-      value: ['quickly', 'slowly', 'happily', 'sadly'],
-    },
-    {
-      name: 'Preposition',
-      value: ['quickly', 'slowly', 'happily', 'sadly'],
-    },
-  ];
-
-  wordData: any = {
-    nouns: ['cat', 'dog', 'house', 'car'],
-    verbs: ['runs', 'jumps', 'eats', 'sleeps'],
-    adjectives: ['big', 'small', 'happy', 'sad'],
-    adverbs: ['quickly', 'slowly', 'happily', 'sadly'],
-  };
-
-  nouns: string[] = this.wordData.nouns;
-  verbs: string[] = this.wordData.verbs;
-  adjectives: string[] = this.wordData.adjectives;
-  adverbs: string[] = this.wordData.adverbs;
-
-  selectedNoun: string = '';
-  selectedVerb: string = '';
-  selectedAdjective: string = '';
-  selectedAdverb: string = '';
+  wordDataNew: IData[] = [];
 
   generatedSentence: string = '';
 
-  buildSentence() {
-    this.generatedSentence =
-      this.selectedAdverb +
-      ' ' +
-      this.selectedAdjective +
-      ' ' +
-      this.selectedNoun +
-      ' ' +
-      this.selectedVerb +
-      '.';
+  buildSentence() {}
+
+  selectedValue(e: any) {
+    this.selectedWords.push(e.value);
+    this.generatedSentence = this.selectedWords.join(' ');
+  }
+
+  submitSentence() {
+    this.isLoadingSubject.next(true);
+    this.sentenceBuilderService
+      .saveWord({ expression: this.generatedSentence } as ISentence)
+      .subscribe((c) => {
+        this.savedSentences.push({
+          expression: this.generatedSentence,
+        } as ISentence);
+        this.isLoadingSubject.next(false);
+        this.generatedSentence = '';
+        this.selectedWords = [];
+      });
   }
 
   ngOnDestroy() {

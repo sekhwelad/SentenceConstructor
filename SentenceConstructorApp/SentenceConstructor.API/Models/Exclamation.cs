@@ -1,6 +1,6 @@
 ﻿namespace SentenceConstructor.API.Models
 {
-    public class Exclamation
+    public class Exclamation : BaseWordTypeModel
     {
     }
 }

@@ -1,0 +1,162 @@
+[
+	{
+		"Name": "abnormally",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "accidentally",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "actually",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "afterwards",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "almost",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "always",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "badly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "carefully",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "certainly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "clearly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "closely",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "commonly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "correctly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "daily",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "deliberately",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "easily",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "equally",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "especially",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "even",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "eventually",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "exactly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "extremely",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "fast",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "fortunately",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "happily",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "honestly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "kindly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "less",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "lightly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "likely",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "more",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "mostly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "never",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "not",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "quickly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "sadly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "tomorrow",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "well",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "yearly",
+		"WordTypeId": 2
+	},
+	{
+		"Name": "yesterday",
+		"WordTypeId": 2
+	}
+]

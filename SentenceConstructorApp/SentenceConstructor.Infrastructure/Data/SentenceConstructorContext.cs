@@ -3,10 +3,11 @@ using SentenceConstructor.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SentenceConstructor.Infrastructure
+namespace SentenceConstructor.Infrastructure.Data
 {
     public class SentenceConstructorContext : DbContext
     {
@@ -18,5 +19,12 @@ namespace SentenceConstructor.Infrastructure
         public DbSet<Sentence> Sentences { get; set; }
         public DbSet<Word> Words { get; set; }
         public DbSet<WordType> WordTypes { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
+
     }
 }

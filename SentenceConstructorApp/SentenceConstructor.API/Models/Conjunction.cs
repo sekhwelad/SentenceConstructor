@@ -1,6 +1,6 @@
 ﻿namespace SentenceConstructor.API.Models
 {
-    public class Conjunction
+    public class Conjunction : BaseWordTypeModel
     {
     }
 }

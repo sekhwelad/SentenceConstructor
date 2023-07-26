@@ -1,0 +1,178 @@
+[
+	{
+		"Name": "go",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "have",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "do",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "say",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "get",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "make",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "know",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "think",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "take",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "see",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "come",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "want",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "look",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "use",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "find",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "give",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "call",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "work",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "try",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "ask",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "need",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "become",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "leave",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "put",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "play",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "run",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "move",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "sit",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "write",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "believe",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "begin",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "stand",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "include",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "learn",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "lead",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "watch",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "stop",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "follow",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "create",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "speak",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "understand",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "open",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "walk",
+		"WordTypeId": 9
+	},
+	{
+		"Name": "offer",
+		"WordTypeId": 9
+	}
+]
